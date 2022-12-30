@@ -137,7 +137,7 @@ header nav li:hover a{
     margin: auto;
     max-width: 858px;
 }
-.container {
+.container_design {
     justify-content: space-between;
     flex-wrap: wrap;
 }
