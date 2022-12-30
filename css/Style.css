@@ -128,6 +128,91 @@ header nav li:hover a{
     border-radius: 50%;
     overflow: hidden;
 }
+.recent_posts{
+    padding-top: 7px;
+    padding-bottom: 32px;
+    background-color: #EDF7FA;
+}
+.recent_posts_w {
+    margin: auto;
+    max-width: 858px;
+}
+.container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.recent_posts_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.design_pattern{
+    max-width: 418px;
+    background-color: #FFFFFF;
+    padding: 24px 27px 7px 23px;
+    box-sizing: border-box;
+}
+.design_pattern H3{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    padding-bottom: 17px;
+}
+.design_pattern p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    margin-bottom: 20px;
+}
+.design_pattern .data {
+    border-right: 1px solid #000000;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    padding: 0px 26px 0px 0px;
+    margin-bottom: 11px;
+}
+.design_pattern H4{
+    display: inline-block;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    padding: 0px 0px 0px 26px;
+    margin-bottom: 11px;
+}
+.recent_posts .recent_posts_text H3{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    display: flex;
+    align-items: flex-end;
+    color: #21243D;
+    margin-top: 8px;
+}
+.recent_posts .recent_posts_text a{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00A8CC;
+    text-decoration: none;
+    margin-top: 20px;
+}
 .all_works {
     padding-top: 15px;
     padding-bottom: 83px;
