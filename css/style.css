@@ -75,9 +75,77 @@ header nav li a {
     text-decoration: none;
     display: inline-block;
     transition: 0.3s;
+   }
+header nav li a:active{
+    color: #FF6464;
+}
+.active{
+    color: #FF6464;
 }
 header nav li:hover a{
     transform: scale(1.2);
+}
+.blog{
+    padding-top: 106px;
+    padding-bottom: 53px;
+}
+.blog_w{
+    max-width: 682px;
+    margin: auto;
+}
+.blog_w H1{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 55px;
+}
+.interaction_week{
+    max-width: 682px;
+    box-sizing: border-box;
+    padding: 0px 80px 29px 0px;
+    border-bottom: solid 1px #E0E0E0;
+}
+.data_interaction_week{
+    border-right: 1px solid #000000;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #21243D;
+    padding: 0px 20px 0px 0px;
+    margin-bottom: 15px;
+}
+.interaction_week H2{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+    margin-bottom: 16px;
+}
+.interaction_week H4{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+    margin-bottom: 15px;
+    display: inline-block;
+    padding: 0px 0px 0px 20px;
+}
+.interaction_week p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
 }
 .main_banner {
     padding-top: 140px;
